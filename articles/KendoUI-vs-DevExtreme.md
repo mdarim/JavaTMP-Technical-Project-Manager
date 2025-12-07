@@ -47,24 +47,16 @@ with a Spring Boot application.
 
 ### Detailed Comparison
 
-| Feature         | Kendo UI                                    | DevExtreme (ExtremeJS)                          |
-|-----------------|---------------------------------------------|-------------------------------------------------|
-| **Component     |                                             |                                                 |
-| Library**       | Very extensive                              | Very extensive                                  |
-| **Framework     |                                             |                                                 |
-| Support**       | Angular, React, Vue, jQuery                 | Angular, React, Vue, jQuery                     |
-| **              |                                             |                                                 |
-| Performance**   | High (virtual scrolling, lazy loading)      | High (virtual scrolling, data virtualization)   |
-| **              |                                             |                                                 |
-| Customization** | ThemeBuilder, built-in themes               | Theme customization, built-in themes            |
-| **              |                                             |                                                 |
-| Documentation** | Extensive, professional support             | Extensive, community and professional support   |
-| **Ease of       |                                             |                                                 |
-| Use**           | Steep learning curve                        | Moderate learning curve                         |
-| **              |                                             |                                                 |
-| Cost**          | High (commercial)                           | High (commercial)                               |
-| **Unique        |                                             |                                                 |
-| Features**      | Advanced components like scheduler, diagram | Advanced data grid features, data visualization |
+| Feature                         | Kendo UI                                    | DevExtreme (ExtremeJS)                          |
+|---------------------------------|---------------------------------------------|-------------------------------------------------|
+| **Component Library Framework** | Very extensive                              | Very extensive                                  |
+| **Support**                     | Angular, React, Vue, jQuery                 | Angular, React, Vue, jQuery                     |
+| Performance                     | High (virtual scrolling, lazy loading)      | High (virtual scrolling, data virtualization)   |
+| **Customization**               | ThemeBuilder, built-in themes               | Theme customization, built-in themes            |
+| **Documentation**               | Extensive, professional support             | Extensive, community and professional support   |
+| **Ease of Use**                 | Steep learning curve                        | Moderate learning curve                         |
+| **Cost**                        | High (commercial)                           | High (commercial)                               |
+| **Unique Features**             | Advanced components like scheduler, diagram | Advanced data grid features, data visualization |
 
 ### Integration with Spring Boot
 
