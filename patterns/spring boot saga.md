@@ -274,6 +274,8 @@ You don’t have to build from scratch — you can clone and inspect these:
 [3]: https://github.com/semotpan/saga-orchestration?utm_source=chatgpt.com "GitHub - semotpan/saga-orchestration: Microservices Java/Spring-Boot Saga Orchestration - Use Case using Transactional Outbox + Change Data Capture with Debezium"
 [4]: https://github.com/hacisimsek/ecommerce-microservices?utm_source=chatgpt.com "GitHub - hacisimsek/ecommerce-microservices: A sample microservice project using Spring Boot 3.2.12 and Java 17, implementing an orchestration-based Saga Pattern. Includes Order, Payment, Inventory, Notification, and Orchestrator services. Supports ACID via @transactional and Docker Compose for container orchestration."
 
+---
+
 Here’s a summary of the article **“How to Implement Distributed Transactions with the Saga Pattern Using Spring Boot”** by Alexander Obregon. ([Medium][1])
 
 ---

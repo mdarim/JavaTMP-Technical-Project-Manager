@@ -3,7 +3,7 @@ Here are several good **GitHub projects** you can explore which demonstrate CQRS
 ## ✅ Recommended Sample CQRS / CQRS+ES Projects
 
 | Repository & Short Description     | What’s Good / Why Pick It                                                                                                                                                                                                |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **cqrs-event-sourcing-springboot** | A Spring Boot microservices project that demonstrates CQRS + Event Sourcing. Good for seeing a real-world microservice layout. ([GitHub][1])                                                                             |
 | **cqrs-eventsourcing-springboot**  | Another sample Spring Boot project implementing CQRS + Event Sourcing — simple enough to start exploring quickly. ([GitHub][2])                                                                                          |
 | **axon-kafka-example**             | An example using the Axon Framework + Spring Boot + Kafka to implement write-side (commands & events) and separate read-side (queries). Good if you want to see event bus + projection-based architecture. ([GitHub][3]) |
