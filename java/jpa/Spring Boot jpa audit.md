@@ -5,7 +5,7 @@ If you use JPA (and especially Spring Data JPA) and want your entities to carry 
 When designing JPA entities to support auditing, these are the key columns/fields you typically want:
 
 | Audit field / column                                          | Purpose / What it records                                                                                                                        |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **createdDate** (or `created_at`, `creation_time`, etc.)      | Timestamp when the entity was first created. ([Baeldung on Kotlin][1])                                                                           |
 | **createdBy** (who created)                                   | Identity (username, user id, etc.) of the user who created the entity. Useful to know who originally inserted the row. ([Baeldung on Kotlin][1]) |
 | **lastModifiedDate** (or `updated_at`, `modified_date`, etc.) | Timestamp when the entity was last modified (updated). Helps track when changes happened. ([Baeldung on Kotlin][1])                              |
