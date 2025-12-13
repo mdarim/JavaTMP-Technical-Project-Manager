@@ -8,17 +8,17 @@ This guide outlines **key cloud-native principles** and how **Spring** helps imp
 
 ## 🎯 **Key Cloud-Native Principles with Spring**
 
-| **Principle**               | **Description**                                           | **Spring Solution**                               |
-|-----------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **Microservices Architecture** | Build applications as a set of **small, loosely coupled services**. | **Spring Boot**, **Spring Cloud**                |
-| **Containerization**         | Package applications in **containers** for portability.   | Spring apps are **container-ready** (using Docker). |
-| **DevOps & CI/CD**           | Automate **builds, testing, and deployments**.            | Works with tools like **Jenkins**, **GitHub Actions**, etc. |
-| **Resilience**               | Ensure apps handle **failures gracefully**.               | **Spring Cloud Circuit Breaker**, **Resilience4j** |
-| **Scalability**              | Scale apps based on **demand**.                          | **Spring Boot** with **Kubernetes**, **Spring Cloud LoadBalancer** |
-| **Configuration Management** | Manage **externalized configuration**.                   | **Spring Cloud Config**, **Spring Boot profiles** |
-| **Service Discovery**        | Automatically locate and connect services.               | **Spring Cloud Netflix Eureka**, **Consul**      |
-| **Observability**            | Monitor apps with **logging, metrics, and tracing**.      | **Spring Boot Actuator**, **Micrometer**, **Zipkin** |
-| **Security**                 | Secure services and data using **modern security practices**. | **Spring Security**, **OAuth2**, **JWT**         |
+| **Principle**                  | **Description**                                                     | **Spring Solution**                                                |
+|--------------------------------|---------------------------------------------------------------------|--------------------------------------------------------------------|
+| **Microservices Architecture** | Build applications as a set of **small, loosely coupled services**. | **Spring Boot**, **Spring Cloud**                                  |
+| **Containerization**           | Package applications in **containers** for portability.             | Spring apps are **container-ready** (using Docker).                |
+| **DevOps & CI/CD**             | Automate **builds, testing, and deployments**.                      | Works with tools like **Jenkins**, **GitHub Actions**, etc.        |
+| **Resilience**                 | Ensure apps handle **failures gracefully**.                         | **Spring Cloud Circuit Breaker**, **Resilience4j**                 |
+| **Scalability**                | Scale apps based on **demand**.                                     | **Spring Boot** with **Kubernetes**, **Spring Cloud LoadBalancer** |
+| **Configuration Management**   | Manage **externalized configuration**.                              | **Spring Cloud Config**, **Spring Boot profiles**                  |
+| **Service Discovery**          | Automatically locate and connect services.                          | **Spring Cloud Netflix Eureka**, **Consul**                        |
+| **Observability**              | Monitor apps with **logging, metrics, and tracing**.                | **Spring Boot Actuator**, **Micrometer**, **Zipkin**               |
+| **Security**                   | Secure services and data using **modern security practices**.       | **Spring Security**, **OAuth2**, **JWT**                           |
 
 ---
 
