@@ -6,28 +6,28 @@ Java 8 introduced the **Date and Time API** in the `java.time` package to addres
 
 ## ✅ **Why the New Date and Time API?**
 
-| **Old API Issues**           | **New API Solutions**                      |
-|------------------------------|-------------------------------------------|
-| `java.util.Date` is mutable   | New API provides **immutable** classes.   |
-| Complex and error-prone       | New API is **intuitive and easy to use**. |
-| Thread-unsafe                | New API is **thread-safe**.               |
-| Poor timezone handling        | New API provides better **timezone support**. |
+| **Old API Issues**          | **New API Solutions**                         |
+|-----------------------------|-----------------------------------------------|
+| `java.util.Date` is mutable | New API provides **immutable** classes.       |
+| Complex and error-prone     | New API is **intuitive and easy to use**.     |
+| Thread-unsafe               | New API is **thread-safe**.                   |
+| Poor timezone handling      | New API provides better **timezone support**. |
 
 ---
 
 ## ✅ **Main Classes in `java.time` Package**
 
-| **Class**               | **Description**                                      |
-|-------------------------|------------------------------------------------------|
-| `LocalDate`             | Represents a **date** without time (e.g., 2024-12-24). |
-| `LocalTime`             | Represents a **time** without a date (e.g., 10:15:30). |
-| `LocalDateTime`         | Represents **both date and time** (e.g., 2024-12-24T10:15:30). |
-| `ZonedDateTime`         | Represents date and time with **time zone**.         |
-| `Instant`               | Represents a **timestamp** (e.g., seconds since epoch). |
-| `Duration`              | Represents the **difference between two times**.     |
-| `Period`                | Represents the **difference between two dates**.     |
-| `ZoneId`                | Represents a **time zone** identifier.              |
-| `DateTimeFormatter`     | Used to **format and parse** date-time objects.      |
+| **Class**           | **Description**                                                |
+|---------------------|----------------------------------------------------------------|
+| `LocalDate`         | Represents a **date** without time (e.g., 2024-12-24).         |
+| `LocalTime`         | Represents a **time** without a date (e.g., 10:15:30).         |
+| `LocalDateTime`     | Represents **both date and time** (e.g., 2024-12-24T10:15:30). |
+| `ZonedDateTime`     | Represents date and time with **time zone**.                   |
+| `Instant`           | Represents a **timestamp** (e.g., seconds since epoch).        |
+| `Duration`          | Represents the **difference between two times**.               |
+| `Period`            | Represents the **difference between two dates**.               |
+| `ZoneId`            | Represents a **time zone** identifier.                         |
+| `DateTimeFormatter` | Used to **format and parse** date-time objects.                |
 
 ---
 
@@ -245,10 +245,10 @@ Parsed Date: 2024-12-24
 
 ## ✅ **Key Differences Between `LocalDateTime` and `ZonedDateTime`**
 
-| **Aspect**           | **`LocalDateTime`**                   | **`ZonedDateTime`**               |
-|----------------------|--------------------------------------|----------------------------------|
-| Time Zone Support     | No                                    | Yes                               |
-| Use Case             | Local date and time operations         | Date and time with timezone info |
+| **Aspect**        | **`LocalDateTime`**            | **`ZonedDateTime`**              |
+|-------------------|--------------------------------|----------------------------------|
+| Time Zone Support | No                             | Yes                              |
+| Use Case          | Local date and time operations | Date and time with timezone info |
 
 ---
 

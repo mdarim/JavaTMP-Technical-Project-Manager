@@ -58,7 +58,7 @@ These features focus on performance improvements, language enhancements, APIs, a
 
 - [**HTTP Client API**](java11-http-client-api.md): Fully implemented and non-incubator.
 - [**String Methods**](java11-string-methods.md): `isBlank()`, `lines()`, `repeat()`.
-- [**File Methods**](advanced-java-file-contents-features.md): `readString()`, `writeString()`.
+- [**File Methods**](file/advanced-java-file-contents-features.md): `readString()`, `writeString()`.
 - **Lambda Enhancements**: `var` usage in lambda parameters.
 - **Removed Features**: Removed `java.se.ee`, `JavaFX`, and others.
 - [**New `Nest-Based Access Control`**](java11-new-nest-based-access-control.md): Simplified access between nested 

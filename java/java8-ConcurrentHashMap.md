@@ -47,12 +47,12 @@ JavaScript: 1
 
 Java 8 introduced new methods in **`ConcurrentHashMap`** that make concurrent updates easier:
 
-| **Method**               | **Description**                                                        |
-|--------------------------|------------------------------------------------------------------------|
-| `compute(key, remappingFunction)` | Computes a new value for the given key using the specified function. |
-| `computeIfAbsent(key, mappingFunction)` | Computes a value if the key is not already present.                |
-| `computeIfPresent(key, remappingFunction)` | Computes a new value if the key is already present.              |
-| `merge(key, value, remappingFunction)` | Merges a new value with the existing value using the provided function. |
+| **Method**                                 | **Description**                                                         |
+|--------------------------------------------|-------------------------------------------------------------------------|
+| `compute(key, remappingFunction)`          | Computes a new value for the given key using the specified function.    |
+| `computeIfAbsent(key, mappingFunction)`    | Computes a value if the key is not already present.                     |
+| `computeIfPresent(key, remappingFunction)` | Computes a new value if the key is already present.                     |
+| `merge(key, value, remappingFunction)`     | Merges a new value with the existing value using the provided function. |
 
 ---
 
@@ -194,12 +194,12 @@ public class MultiThreadExample {
 
 ## ✅ **Summary of Best Practices for Concurrent Additions**
 
-| **Method**               | **Use Case**                                 |
-|--------------------------|----------------------------------------------|
-| `compute()`              | When you want to update the value for a key atomically. |
-| `computeIfAbsent()`       | When you want to add a value only if the key is absent. |
-| `computeIfPresent()`      | When you want to update a value only if the key is present. |
-| `merge()`                | When you want to combine a new value with the existing value. |
+| **Method**           | **Use Case**                                                  |
+|----------------------|---------------------------------------------------------------|
+| `compute()`          | When you want to update the value for a key atomically.       |
+| `computeIfAbsent()`  | When you want to add a value only if the key is absent.       |
+| `computeIfPresent()` | When you want to update a value only if the key is present.   |
+| `merge()`            | When you want to combine a new value with the existing value. |
 
 ---
 

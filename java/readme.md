@@ -3,7 +3,7 @@
 - [Java Main Features By versions](java-main-features-version.md)
 - [Java 22 Main Features](java22-main-features.md)
 - [Java 23 Main Features](java23-main-features.md)
-- [Advanced Java File Contents Features](advanced-java-file-contents-features.md)
+- [Advanced Java File Contents Features](file/advanced-java-file-contents-features.md)
 - [java 23 advanced concurrency thread features](java23-advanced-concurrency-thread-features.md)
 ## Upgrade steps:
 - Install OpenJdk [https://jdk.java.net/23/](https://jdk.java.net/23/) 

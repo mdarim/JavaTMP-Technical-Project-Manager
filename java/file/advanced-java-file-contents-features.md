@@ -4,14 +4,14 @@ Here’s a detailed guide on **advanced Java file handling features** for workin
 
 ## 📚 **Advanced Java File Content Features**
 
-| **Feature**                  | **Description**                                           | **Key Classes/Methods**             |
-|------------------------------|-----------------------------------------------------------|-------------------------------------|
-| **Reading Large Files**       | Efficiently read large files without loading the entire content into memory. | `BufferedReader`, `Files.lines()`   |
-| **Writing to Files**          | Write to files efficiently and handle exceptions properly. | `BufferedWriter`, `Files.write()`   |
-| **File Searching**            | Search for specific content within files.                 | `Files.lines()`, `Pattern`, `Stream`|
-| **Processing Large Files**    | Process large files line by line to save memory.          | `Files.newBufferedReader()`, `Stream` |
-| **NIO (Non-blocking I/O)**    | Use Java NIO for faster, non-blocking file operations.     | `Files`, `Path`, `FileChannel`      |
-| **File Watcher**              | Monitor file changes in real-time.                        | `WatchService`                      |
+| **Feature**                | **Description**                                                              | **Key Classes/Methods**               |
+|----------------------------|------------------------------------------------------------------------------|---------------------------------------|
+| **Reading Large Files**    | Efficiently read large files without loading the entire content into memory. | `BufferedReader`, `Files.lines()`     |
+| **Writing to Files**       | Write to files efficiently and handle exceptions properly.                   | `BufferedWriter`, `Files.write()`     |
+| **File Searching**         | Search for specific content within files.                                    | `Files.lines()`, `Pattern`, `Stream`  |
+| **Processing Large Files** | Process large files line by line to save memory.                             | `Files.newBufferedReader()`, `Stream` |
+| **NIO (Non-blocking I/O)** | Use Java NIO for faster, non-blocking file operations.                       | `Files`, `Path`, `FileChannel`        |
+| **File Watcher**           | Monitor file changes in real-time.                                           | `WatchService`                        |
 
 ---
 
