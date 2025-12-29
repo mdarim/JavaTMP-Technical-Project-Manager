@@ -1,29 +1,29 @@
-# Java And Reactjs Preparation Tutorials
+## Java And Reactjs Preparation Tutorials
 
-## Core Java
-
-Number of Question(s): 2
-
-## Spring / Springboot
+### Core Java
 
 Number of Question(s): 2
 
-## Hibernate
+### Spring / Springboot
 
 Number of Question(s): 2
 
-## PL/SQL
+### Hibernate
+
+Number of Question(s): 2
+
+### PL/SQL
 
 Number of Question(s): 1
 
-## ReactJS
+### ReactJS
 
 Number of Question(s): 2
 
-## Javascript / Typescript
+### Javascript / Typescript
 
 Number of Question(s): 1
 
-## Coding (Java Programming, Spring, REST apis)
+### Coding (Java Programming, Spring, REST apis)
 
 Number of Question(s): 1
