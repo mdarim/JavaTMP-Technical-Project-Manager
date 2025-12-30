@@ -28,6 +28,7 @@ Number of Question(s): 2
 ### PL/SQL
 
 Number of Question(s): 1
+* [Oracle PLSQL Hand on Questions](oracle%20plsql%20handon%20questions.md)
 * [oracle plsql tutorial.md](../db/oracle%20plsql%20tutorial.md)
 * [plsql tutorial.md](plsql%20tutorial.md)
 * [sql tutorial.md](sql%20tutorial.md)
